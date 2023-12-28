@@ -20,11 +20,12 @@ public class Main {
 
         //String audio_url = "C:\\Users\\petya\\eclipse-workspace\\audio-transcript\\src\\main\\resources\\harvard.wav?raw=true";
         String pathToFile = "C:\\Users\\petya\\Desktop\\subtitles.srt";
+        String audio_file = "src/main/resources/Job Interview_ I Want to Learn (ESL).mp3";
         AssemblyAI aai = AssemblyAI.builder()
                 .apiKey("e11ea93022244cf9a48e216dc33ca346")
                 .build();
         Transcript transcript = aai.transcripts().transcribe(new File(
-                "src/main/resources/Job Interview_ I Want to Learn (ESL).mp3"));
+                audio_file));
         SRTEntityGenerator srtEntityGenerator = new SRTEntityGenerator();
 
         if (transcript.getWords().isPresent()) {
