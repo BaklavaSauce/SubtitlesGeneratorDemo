@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
 
         //String audio_url = "C:\\Users\\petya\\eclipse-workspace\\audio-transcript\\src\\main\\resources\\harvard.wav?raw=true";
-        String pathToFile = "C:\\Users\\petya\\Desktop\\subtitles.srt";
+        String pathToFile = "src/main/resources/subtitles.srt";
         String audio_file = "src/main/resources/Job Interview_ I Want to Learn (ESL).mp3";
         AssemblyAI aai = AssemblyAI.builder()
                 .apiKey("e11ea93022244cf9a48e216dc33ca346")
