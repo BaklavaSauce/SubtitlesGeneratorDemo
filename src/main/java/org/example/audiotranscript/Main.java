@@ -70,7 +70,6 @@ public class Main {
                 writer.newLine();
             }
         } catch (IOException e) {
-            // Handle IO exceptions, e.g., file not found, permission issues, etc.
             e.printStackTrace();
         }
     }
