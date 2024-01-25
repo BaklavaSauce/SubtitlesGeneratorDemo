@@ -7,3 +7,4 @@ and import the file with subtitles.
   - After executing the program for the given audio file, fetch the subtitles file
   - Open VLC Media Player and press "Subtitle" in top menu
   - select "Add Subtitle File" and select the SRT file
+- For the API Key either make an account on https://www.assemblyai.com/ or contact me
